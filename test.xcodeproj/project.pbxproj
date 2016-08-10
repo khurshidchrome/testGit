@@ -14,6 +14,7 @@
 		93F232531D5B002800DC22B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F232521D5B002800DC22B2 /* Assets.xcassets */; };
 		93F232561D5B002800DC22B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F232541D5B002800DC22B2 /* LaunchScreen.storyboard */; };
 		93F232621D5B228300DC22B2 /* KeyBoardScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F232611D5B228300DC22B2 /* KeyBoardScrollView.m */; };
+		93F232661D5B3A7600DC22B2 /* MTBBarcodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F232651D5B3A7600DC22B2 /* MTBBarcodeScanner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		93F232611D5B228300DC22B2 /* KeyBoardScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardScrollView.m; sourceTree = "<group>"; };
 		93F232631D5B28BE00DC22B2 /* unspecified.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = unspecified.jpg; path = ../unspecified.jpg; sourceTree = "<group>"; };
 		93F232641D5B28BE00DC22B2 /* unspecified (2) */ = {isa = PBXFileReference; lastKnownFileType = file; name = "unspecified (2)"; path = "../unspecified (2)"; sourceTree = "<group>"; };
+		93F232651D5B3A7600DC22B2 /* MTBBarcodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTBBarcodeScanner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				93F232611D5B228300DC22B2 /* KeyBoardScrollView.m */,
 				93F2324D1D5B002800DC22B2 /* ViewController.m */,
 				93F2324F1D5B002800DC22B2 /* Main.storyboard */,
+				93F232651D5B3A7600DC22B2 /* MTBBarcodeScanner.m */,
 				93F232521D5B002800DC22B2 /* Assets.xcassets */,
 				93F232541D5B002800DC22B2 /* LaunchScreen.storyboard */,
 				93F232571D5B002800DC22B2 /* Info.plist */,
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93F2324E1D5B002800DC22B2 /* ViewController.m in Sources */,
+				93F232661D5B3A7600DC22B2 /* MTBBarcodeScanner.m in Sources */,
 				93F2324B1D5B002800DC22B2 /* AppDelegate.m in Sources */,
 				93F232621D5B228300DC22B2 /* KeyBoardScrollView.m in Sources */,
 				93F232481D5B002800DC22B2 /* main.m in Sources */,
@@ -309,6 +313,7 @@
 				93F2325C1D5B002800DC22B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
